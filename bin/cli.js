@@ -8,4 +8,5 @@ const dice = args.dice? args.dice:2;
 const rolls = args.rolls? args.rolls:1;
 
 const result = roll(sides, dice, rolls);
+
 console.log(JSON.stringify(result));
