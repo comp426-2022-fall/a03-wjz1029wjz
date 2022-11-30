@@ -10,4 +10,4 @@ const rolls = args.rolls? args.rolls:1;
 const result = roll(sides, dice, rolls);
 console.log(JSON.stringify(result));
 
-//try to make 100
+//try to make 100 
