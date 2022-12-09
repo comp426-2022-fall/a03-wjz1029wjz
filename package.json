@@ -1,31 +1,30 @@
 {
   "name": "node-dice",
   "version": "1.0.0",
-  "description": "assignment 03 comp 426",
+  "description": "comp 426 a03",
   "main": "./lib/roll.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "bin": {
-    "roll-dice": "./bin/cli.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comp426-2022-fall/a03-wjz1029wjz.git"
   },
   "keywords": [
-    "a03",
-    "comp",
-    "426"
+    "comp426",
+    "a03"
   ],
   "author": "wjz1029wjz",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/comp426-2022-fall/a03-wjz1029wjz/issues"
   },
+  "bin": {
+    "roll-dice": "./bin/cli.js"
+  },
   "homepage": "https://github.com/comp426-2022-fall/a03-wjz1029wjz#readme",
   "dependencies": {
     "minimist": "^1.2.7"
-  },
-    "type": "module"
+  }
 }
