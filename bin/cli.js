@@ -8,6 +8,6 @@ const dice = args.dice || 2;
 const rolls = args.rolls || 1;
 
 const result = roll(sides, dice, rolls);
-console.log(result);
+console.log(JSON.stringify({ sides: sides, dice: dice, rolls: rolls, results: result}));
 
 //try to make 100 commits to get the full participation credit :)
