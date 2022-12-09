@@ -10,4 +10,4 @@ const rolls = args.rolls || 1;
 const result = roll(sides, dice, rolls);
 console.log(JSON.stringify({ sides: sides, dice: dice, rolls: rolls, results: result}));
 
-//try to make 100 commits to get the full participation credit :)
+
